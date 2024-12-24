@@ -1,0 +1,18 @@
+@import url(css/reset.css);
+@import url(css/header.css);
+@import url(css/hero-section.css);
+@import url(css/statistics.css);
+@import url(css/about.css);
+@import url(css/service.css);
+@import url(css/personal.css);
+@import url(css/testimonials.css);
+@import url(css/contacts.css);
+
+* {
+  font-family: "Montserrat", serif;
+}
+
+body{
+  background-color: #FAFAFA;
+}
+

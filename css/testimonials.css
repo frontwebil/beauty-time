@@ -1,0 +1,117 @@
+.testimonials {
+  padding: 120px 10px;
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.testimonials-slides {
+  margin: 40px auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.testimonial-slide {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  justify-content: space-between;
+  opacity: 0;
+  transition: 0.5s ease all;
+}
+.testimonial-slide.active {
+  opacity: 1;
+}
+.testimonial-slide-block {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 420px;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+.testimonial-slide-rating {
+  color: #ffd500;
+  font-size: 20px;
+}
+.testimonial-slide-title {
+  padding-top: 5px;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #1f2937;
+}
+.testimonial-slide-text {
+  padding-top: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: #1e1e1e;
+  width: 100%;
+  padding-bottom: 6px;
+}
+
+.testimonial-slide-link {
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #717680;
+}
+
+.controls-testimonials-slides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicators-testimonials{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.indicators-testimonials button.active {
+  background: #e5e7eb;
+  border-radius: 8px;
+  width: 38px;
+  height: 38px;
+}
+
+.indicators-testimonials button.active {
+  background: #e5e7eb;
+}
+
+.read-more-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #717680;
+  transition: 0.5s ease all;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.read-more-btn:hover {
+  opacity: 0.8;
+}
+
+.text-wrapper {
+  transition: height 0.3s ease-out;
+  overflow: hidden;
+}
+
+.testimonial-slide-text {
+  margin: 0;
+}

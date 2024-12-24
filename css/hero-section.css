@@ -1,0 +1,66 @@
+.hero-section {
+  background-image: url(/img/hero/hero-section-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 70px 220px;
+}
+
+.hero-section-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 60px;
+}
+.hero-section-title {
+  font-size: 46px;
+  font-weight: bold;
+  color: #fafafa;
+  max-width: 750px;
+  letter-spacing: 0.5%;
+  padding-bottom: 12px;
+}
+.hero-section-text {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fafafa;
+  max-width: 750px;
+  letter-spacing: 0.5%;
+  padding-bottom: 20px;
+}
+.hero-section-buttons {
+  display: flex;
+  gap: 20px;
+}
+.hero-section-button-regNow {
+  background-color: #038650;
+  max-width: 310px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #fafafa;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.hero-section-button-more {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  max-width: 200px;
+  color: #fafafa;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: rgba(30, 30, 30, 0.05);
+  border: 1px solid #fafafa;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.hero-section-button-more:hover , .hero-section-button-regNow:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,132 @@
+.personal {
+  background-color: #f4f4f4;
+  padding: 40px 10px;
+}
+
+.personal-slides {
+  max-width: 1300px;
+  margin: 40px auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.personal-slide {
+  min-width: 100%;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  flex-shrink: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.personal-slide.active {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+}
+.personal-block {
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 18px;
+  min-height: 300px;
+}
+.personal-block-top {
+  display: flex;
+  gap: 20px;
+}
+.personal-block-top-img {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  max-width: 90px;
+}
+.personal-block-top-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.personal-block-top-text-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #038650;
+}
+.personal-block-top-text-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.personal-block-top-text-row-title {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #1e1e1e;
+}
+.personal-block-top-text-row-decription {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #1e1e1e;
+}
+.personal-block-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.personal-block-info-text {
+  backdrop-filter: blur(10px);
+  background: #038650;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #fafafa;
+}
+
+.controls-personal-slides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.controls-personal-prev {
+  width: 24px;
+  height: 24px;
+}
+.indicators-personal {
+  display: flex;
+  gap: 5px;
+
+}
+.indicator-personal {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #1e1e1e;
+padding: 6px 12px;
+border-radius: 8px;
+width: 38px;
+cursor: pointer;
+}
+.indicator-personal.active {
+background: #e5e7eb;
+}
+.controls-personal-next {
+  width: 24px;
+  height: 24px;
+}

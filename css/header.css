@@ -1,0 +1,115 @@
+.header {
+  color: #1E1E1E;
+}
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 12px 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  gap: 15px;
+  max-width: 520px;
+  width: 100%;
+}
+.header-nav a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  transition: 0.5s all ease;
+  color: #1E1E1E;
+}
+.header-nav a:hover{
+  opacity: 0.8;
+}
+.header-logo {
+  max-width: 50px;
+}
+.header-interactive {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 520px;
+  width: 100%;
+}
+.button-signUp{
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: #038650;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FAFAFA;
+  transition: 0.7s ease all;
+}
+.button-signUp:hover{
+  opacity: 0.8;
+}
+.header-interactive-mobile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: 0.5s all ease;
+  margin-right: 22px;
+}
+
+.header-interactive-mobile a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1E1E1E;
+}
+.header-interactive-mobile:hover{
+  opacity: 0.9;
+}
+
+.header-interactive-language {
+  position: relative;
+  cursor: pointer;
+  color: #717680;
+  font-weight: 500;
+  transition: 0.5s all ease;
+}
+
+.header-interactive-language{
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.header-interactive-language-menu {
+  position: absolute;
+
+  gap: 10px; /* Відстань між елементами */
+  background-color: #ffffff; /* Білий фон */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+  left: -10px;
+  top: 150%;
+  padding: 10px 30px;
+  border: 1px solid #e0e0e0; /* Тонка рамка */
+  border-radius: 8px; /* Скруглення кутів */
+  z-index: 10;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden; /* Робимо видимим */
+}
+
+
+.header-interactive-language-menu.active{
+  opacity: 1;
+  transform: translateY(0); /* Анімація переміщення */
+  visibility: visible; /* Робимо видимим */
+}
+
+
+.header-interactive-language-menu a{
+  display: flex; 
+  gap: 5px;
+  justify-content: center;
+  flex-direction: row; 
+  align-items: center;
+  color: #1E1E1E;
+}

@@ -1,0 +1,37 @@
+.statistics-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 120px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.statistics-block {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-width: 310px;
+}
+.statistics-block-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  color: #038650;
+  text-transform: uppercase;
+}
+.statistics-block-subTitle {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 22px;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+.statistics-block-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #717680;
+  letter-spacing: -0.02em;
+}
