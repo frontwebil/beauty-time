@@ -114,6 +114,7 @@
 }
 
 .header-container-mobile {
+  background-color: #406F45;
   align-items: center;
   display: none;
   justify-content: space-between;
