@@ -1,10 +1,33 @@
 const openLanguageButton = document.getElementById("open-language");
-console.log(openLanguageButton);
 const languageMenu = document.getElementById("language-menu");
 
 openLanguageButton.onclick = (e) => {
   languageMenu.classList.toggle("active");
 };
+
+
+const openLanguageButtonMobile = document.getElementById("open-language-mobile");
+const languageMenuMobile = document.getElementById("language-menu-mobile");
+
+openLanguageButtonMobile.onclick = (e) => {
+  languageMenuMobile.classList.toggle("active");
+};
+
+// Burger
+
+const openBurger = document.getElementById("openBurger");
+const burgerMenu = document.getElementById('burger-menu');
+
+openBurger.onclick = () => {
+  if (burgerMenu.style.display === "none" || burgerMenu.style.display === "") {
+    burgerMenu.style.display = "flex"; // Показываем меню
+    setTimeout(() => burgerMenu.classList.toggle('active'), 200); // Добавляем задержку, чтобы CSS применился
+  } else {
+    burgerMenu.classList.toggle('active');
+    setTimeout(() => burgerMenu.style.display = "none", 250); // Убираем меню после завершения анимации
+  }
+};
+
 
 // SWIPER SERVICE
 

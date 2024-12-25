@@ -4,7 +4,7 @@
   padding: 120px 50px;
   display: flex;
   justify-content: space-between;
-  gap: 45px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .statistics-block {
