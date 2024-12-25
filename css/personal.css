@@ -59,6 +59,9 @@
   font-weight: 600;
   font-size: 24px;
   color: #038650;
+  word-wrap: break-word; /* Дозволяє переносити слова */
+  word-break: break-word; /* Для забезпечення переносу в сучасних браузерах */
+  white-space: normal; /* Забезпечує переноси рядків */
 }
 .personal-block-top-text-row {
   display: flex;
@@ -94,6 +97,9 @@
   line-height: 150%;
   letter-spacing: 0.01em;
   color: #fafafa;
+  word-wrap: break-word; /* Дозволяє переносити слова */
+  word-break: break-word; /* Для забезпечення переносу в сучасних браузерах */
+  white-space: normal; /* Забезпечує переноси рядків */
 }
 
 .controls-personal-slides {

@@ -43,8 +43,14 @@ const services = [
 
 let SLIDES_PER_PAGE_SERVICE = 4;
 const screenWidth1 = window.screen.width;
-if (screenWidth1 < 1000) {
+if (screenWidth1 <= 1320) {
+  SLIDES_PER_PAGE_SERVICE = 3;
+}
+if (screenWidth1 <= 1000) {
   SLIDES_PER_PAGE_SERVICE = 2;
+}
+if (screenWidth1 <= 665) {
+  SLIDES_PER_PAGE_SERVICE = 1;
 }
 
 let currentSlideIndexService = 0;
@@ -311,8 +317,11 @@ const personal = [
 
 let SLIDES_PER_PAGE_PERSONAL = 3;
 const screenWidth12 = window.screen.width;
-if(screenWidth12 < 1000){
+if(screenWidth12 <= 1265){
   SLIDES_PER_PAGE_PERSONAL = 2;
+}
+if(screenWidth12 <= 850){
+  SLIDES_PER_PAGE_PERSONAL = 1;
 }
 
 let currentSlideIndexPersonal = 0;

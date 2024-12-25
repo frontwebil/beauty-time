@@ -1,3 +1,23 @@
+@media only screen and (max-width: 1320px) {
+  .service-blocks {
+    justify-content: center;
+  }
+  .controls-service-slides {
+    max-width: 990px;
+  }
+}
+@media only screen and (max-width: 1266px) {
+  .container-title {
+    padding-left: 15px;
+  }
+  .about-cards {
+    flex-direction: column;
+    max-width: 600px;
+  }
+  .personal-slide {
+    justify-content: center;
+  }
+}
 @media only screen and (max-width: 1100px) {
   .testimonial-slide {
     display: flex;
@@ -7,7 +27,7 @@
     padding: 50px 10px;
     max-width: 1300px;
     margin: 40px auto;
-}
+  }
 }
 @media only screen and (max-width: 965px) {
   .footer-nav {
@@ -22,17 +42,20 @@
     display: none;
   }
 }
-@media only screen and (max-width: 800px) {
-
+@media only screen and (max-width: 850px) {
+  .service {
+    padding: 80px 10px;
+  }
   .controls-testimonials-slides {
-    display: flex
-;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
     max-width: 400px;
     margin: 0 auto;
+  }
 }
+@media only screen and (max-width: 800px) {
+  .controls-personal-slides {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 
   .title {
     font-weight: 700;
@@ -75,6 +98,25 @@
 }
 
 @media only screen and (max-width: 660px) {
+  .about-cards {
+    margin: -160px auto 0;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 32px;
+  }
+  .about-subTitle {
+    font-size: 16px;
+  }
+
+  .about-bg {
+    background-image: url(/img/about/about-bg-mobile.png);
+    padding: 60px 10px 190px;
+  }
+  .controls-service-slides {
+    max-width: 400px;
+  }
   .contacts-content {
     flex-direction: column;
   }
@@ -86,5 +128,48 @@
   .contacts-content-map {
     display: flex;
     max-width: 420px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .about-card-title {
+    font-size: 20px;
+  }
+  .personal-block-top-text-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .personal-block-top {
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .personal-block-info {
+    max-width: 325px;
+    margin: 20px auto 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .personal-block-info {
+    max-width: 300px;
+    margin: 20px auto 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .personal-block-info {
+    max-width: 295px;
+    margin: 20px auto 0;
+  }
+
+  .personal-block-top-text-title {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .personal-block-info {
+    max-width: 270px;
+    margin: 20px auto 0;
   }
 }
