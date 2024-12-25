@@ -7,6 +7,11 @@
 @import url(css/personal.css);
 @import url(css/testimonials.css);
 @import url(css/contacts.css);
+@import url(css/footer.css);
+
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   font-family: "Montserrat", serif;

@@ -18,11 +18,11 @@
   <header class="header">
     <div class="header-container">
       <nav class="header-nav">
-        <a href="">Про нас</a>
-        <a href="">Послуги</a>
-        <a href="">Майстри</a>
-        <a href="">Відгуки</a>
-        <a href="">Контакти</a>
+        <a href="#about">Про нас</a>
+        <a href="#service">Послуги</a>
+        <a href="#personal">Майстри</a>
+        <a href="#testimonials">Відгуки</a>
+        <a href="#contacts">Контакти</a>
       </nav>
       <div class="header-logo">
         <img src="icons/logo.svg" alt="" />
@@ -99,7 +99,7 @@
       </div>
     </div>
   </section>
-  <section class="about">
+  <section class="about" id="about">
     <div class="about-bg">
       <h2 class="about-title">про beauty time</h2>
       <h2 class="about-subTitle">
@@ -161,7 +161,7 @@
       </div>
     </div>
   </section>
-  <section class="service">
+  <section class="service" id="service">
     <div class="container-title">
       <h2 class="title">послуги</h2>
       <p class="subTitle">
@@ -500,7 +500,7 @@
       <button class="controls-service-next"><img src="icons/control-right.svg" alt=""></button>
     </div>
   </section>
-  <section class="personal">
+  <section class="personal" id="personal">
     <div class="container-title">
       <h2 class="title">майстри</h2>
       <p class="subTitle">
@@ -682,7 +682,7 @@
     </div>
 
   </section>
-  <section class="testimonials">
+  <section class="testimonials" id="testimonials">
     <div class="container-title">
       <h2 class="title">відгуки</h2>
       <p class="subTitle">
@@ -731,7 +731,7 @@
     </div>
 
   </section>
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="contacts-container">
 
       <div class="container-title">
@@ -744,13 +744,70 @@
           <path d="M2 2H42" stroke="#1E1E1E" stroke-width="3" stroke-linecap="round" />
         </svg>
       </div>
-
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.092011339658!2d30.517877276097195!3d50.439386788160874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefe57e5508f%3A0x8f76b522511d50a8!2z0YPQuy4g0KDQvtCz0L3QtdC00LjQvdGB0LrQsNGPLCA1LzE0LCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1735053428590!5m2!1sru!2sua"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="contacts-content">
+        <div class="contacts-content-connection">
+          <h2 class="contacts-content-connection-title">для зв’язку</h2>
+          <div class="contacts-content-connection-cards">
+            <a href="tel:+380963651101" class="contacts-content-connection-card">
+              <img src="img/connection/Phone.svg" alt="" class="contacts-content-connection-card-img">
+              <div class="contacts-content-connection-card-text">
+                <h2 class="contacts-content-connection-card-text-title">Номер телефону</h2>
+                <p class="contacts-content-connection-card-text-info">+38 (096) 365 11 01</p>
+              </div>
+            </a>
+            <a href="https://maps.app.goo.gl/JnxJe1gss46YvtNy8" class="contacts-content-connection-card">
+              <img src="img/connection/home.svg" alt="" class="contacts-content-connection-card-img">
+              <div class="contacts-content-connection-card-text">
+                <h2 class="contacts-content-connection-card-text-title">Адреса</h2>
+                <p class="contacts-content-connection-card-text-info">Рогнідинська 5/14, Київ, Україна</p>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/massage.kyiv.bt/" class="contacts-content-connection-card">
+              <img src="img/connection/instagram.svg" alt="" class="contacts-content-connection-card-img">
+              <div class="contacts-content-connection-card-text">
+                <h2 class="contacts-content-connection-card-text-title">Instagram</h2>
+                <p class="contacts-content-connection-card-text-info">@massage.kyiv.bt</p>
+              </div>
+            </a>
+          </div>
+          <a href="https://n799265.alteg.io/company/751395/personal/select-services?fbclid=PAZXh0bgNhZW0CMTEAAabLqiHtKzMhRhWUXYwmBI1UVrGu612jHFCzv3q1JPzuc6nMSlVEcItK5vg_aem_g_cQ2HMUZu5LZUieFuT7xA&o=" class="contacts-content-connection-regNow">
+            Записатись зараз
+          </a>
+        </div>
+        <div class="contacts-content-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.092193234931!2d30.520452199999998!3d50.439383400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefe57e5508f%3A0x8f76b522511d50a8!2z0YPQuy4g0KDQvtCz0L3QtdC00LjQvdGB0LrQsNGPLCA1LzE0LCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1735081594060!5m2!1sru!2sua" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacts-content-map-video">
+          <img src="img/connection/howFind.png" alt="">
+        </div>
+      </div>
     </div>
   </section>
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-container-flex">
+        <div class="footer-logo">
+          <img src="icons/footer-logo.svg" alt="">
+        </div>
+        <div class="footer-nav">
+          <a href="#" class="footer-nav-text">Про нас</a>
+          <a href="#" class="footer-nav-text">Послуги</a>
+          <a href="#" class="footer-nav-text">Майстри</a>
+          <a href="#" class="footer-nav-text">Відгуки</a>
+          <a href="#" class="footer-nav-text">Контакти</a>
+        </div>
+      </div>
+      <div class="footer-container-flex">
+        <div class="footer-interactive-mobile">
+          <img src="icons/phone-footer.svg" alt="" style="width: 20px; height: 20px" />
+          <a href="tel:+380963651101">+38 (096) 365 11 01</a>
+        </div>
+        <a href="#" class="footer-container-img-ins">
+          <img src="icons/instagram-white.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
   <script src="main.js" type="module"></script>
 </body>
 
