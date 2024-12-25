@@ -7,9 +7,6 @@
   }
 }
 @media only screen and (max-width: 1266px) {
-  .container-title {
-    padding-left: 15px;
-  }
   .about-cards {
     flex-direction: column;
     max-width: 600px;
@@ -132,6 +129,9 @@
 }
 
 @media only screen and (max-width: 440px) {
+  .personal-block {
+    border-radius: 12px;
+  }
   .about-card-title {
     font-size: 20px;
   }
@@ -144,6 +144,9 @@
   }
 }
 @media only screen and (max-width: 420px) {
+  .personal-block-top-text-title {
+    max-width: 120px;
+  }
   .personal-block-info {
     max-width: 325px;
     margin: 20px auto 0;
@@ -162,9 +165,7 @@
     margin: 20px auto 0;
   }
 
-  .personal-block-top-text-title {
-    max-width: 120px;
-  }
+
 }
 
 @media only screen and (max-width: 350px) {
