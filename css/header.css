@@ -1,5 +1,11 @@
 .header {
-  color: #1E1E1E;
+  color: #1e1e1e;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: rgba(250, 250, 250);
+  z-index: 8;
 }
 .header-container {
   max-width: 1400px;
@@ -21,9 +27,9 @@
   font-weight: 500;
   padding: 8px;
   transition: 0.5s all ease;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
-.header-nav a:hover{
+.header-nav a:hover {
   opacity: 0.8;
 }
 .header-logo {
@@ -36,16 +42,16 @@
   max-width: 520px;
   width: 100%;
 }
-.button-signUp{
+.button-signUp {
   padding: 10px 24px;
   border-radius: 8px;
   background-color: #038650;
   font-size: 16px;
   font-weight: 600;
-  color: #FAFAFA;
+  color: #fafafa;
   transition: 0.7s ease all;
 }
-.button-signUp:hover{
+.button-signUp:hover {
   opacity: 0.8;
 }
 .header-interactive-mobile {
@@ -59,9 +65,9 @@
 .header-interactive-mobile a {
   font-size: 16px;
   font-weight: 600;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
-.header-interactive-mobile:hover{
+.header-interactive-mobile:hover {
   opacity: 0.9;
 }
 
@@ -73,7 +79,7 @@
   transition: 0.5s all ease;
 }
 
-.header-interactive-language{
+.header-interactive-language {
   align-items: center;
   display: flex;
   gap: 8px;
@@ -96,25 +102,23 @@
   visibility: hidden; /* Робимо видимим */
 }
 
-
-.header-interactive-language-menu.active{
+.header-interactive-language-menu.active {
   opacity: 1;
   transform: translateY(0); /* Анімація переміщення */
   visibility: visible; /* Робимо видимим */
 }
 
-
-.header-interactive-language-menu a{
-  display: flex; 
+.header-interactive-language-menu a {
+  display: flex;
   gap: 5px;
   justify-content: center;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
 
 .header-container-mobile {
-  background-color: #406F45;
+  background-color: #406f45;
   align-items: center;
   display: none;
   justify-content: space-between;
