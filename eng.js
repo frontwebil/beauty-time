@@ -33,36 +33,37 @@ openBurger.onclick = () => {
 
 const services = [
   {
-    title: "РУЧНИЙ ТА АПАРАТНИЙ МАСАЖ",
-    description: "Пропонуємо спектр послуг, спрямованих на покращення",
-    services: ["Класичний", "Спортивний", "Оздоровчий", "Лімфодренажний"]
+    title: "MANUAL AND HARDWARE MASSAGE",
+    description: "We offer a variety of services aimed at improvement",
+    services: ["Classic", "Sports", "Wellness", "Lymphatic drainage"]
   },
   {
-    title: "ОБГОРТАННЯ СКРАБУВАННЯ",
-    description: "Пропонуємо спектр послуг, спрямованих на покращення",
-    services: ["Бандажне пеленання", "Термообгортання", "Кріогенне", "Гіпсотерапія"]
+    title: "WRAPS AND SCRUBS",
+    description: "We offer a variety of services aimed at improvement",
+    services: ["Bandage wrapping", "Thermo wrap", "Cryogenic", "Gypsum therapy"]
   },
   {
-    title: "КОСМЕТОЛОГІЧНІ ПОСЛУГИ",
-    description: "Пропонуємо спектр послуг, спрямованих на покращення",
-    services: ["Чистки", "Пілінги", "Маски", "Пеленання для обличчя"]
+    title: "COSMETOLOGY SERVICES",
+    description: "We offer a variety of services aimed at improvement",
+    services: ["Cleansings", "Peelings", "Masks", "Facial wrapping"]
   },
   {
-    title: "ЛАЗЕРНА ЕПІЛЯЦІЯ РІЗНИХ ЗОН",
-    description: "Пропонуємо спектр послуг, спрямованих на покращення",
-    services: ["Обличчя", "Тіло", "Комплексна епіляція"]
+    title: "LASER HAIR REMOVAL ON VARIOUS ZONES",
+    description: "We offer a variety of services aimed at improvement",
+    services: ["Face", "Body", "Complex removal"]
   },
   {
-    title: "ВОСКОВА ДЕПІЛЯЦІЯ ШУГАРИНГ",
-    description: "Пропонуємо спектр послуг, спрямованих на покращення",
-    services: ["Депіляція різних зон", "Комплекси", "Електроепіляція"]
+    title: "Waxing and Sugaring",
+    description: "We offer a variety of services aimed at improvement",
+    services: ["Hair removal in different areas", "Complex removal", "Electroepilation"]
   },
   {
-    title: "ОФФОРМЛЕННЯ ВІЙ ТА БРІВ",
-    description: "Пропонуємо спектр послуг, спрямованих на покращення",
-    services: ["Корекція та фарбування", "Ламінування вій/брів", "Проріджування брів", "Вусики"]
+    title: "Eyelash and Eyebrow Styling",
+    description: "We offer a variety of services aimed at improvement",
+    services: ["Correction and tinting", "Eyelash lamination", "Eyebrow lamination", "Upper lip threading"]
   }
 ];
+
 
 let SLIDES_PER_PAGE_SERVICE = 4;
 const screenWidth1 = window.screen.width;
@@ -119,7 +120,7 @@ function initServiceSlider() {
           </div>
         </div>
         <a class="service-block-link" href="https://n799265.alteg.io/company/751395/personal/select-services?fbclid=PAZXh0bgNhZW0CMTEAAabLqiHtKzMhRhWUXYwmBI1UVrGu612jHFCzv3q1JPzuc6nMSlVEcItK5vg_aem_g_cQ2HMUZu5LZUieFuT7xA&o=">
-          <p class="service-block-link-text">Переглянути все та ціни</p>
+          <p class="service-block-link-text">View All & Prices</p>
           <img src="icons/chevron-right.svg" alt="">
         </a>
       </div>
@@ -262,77 +263,77 @@ document.addEventListener("DOMContentLoaded", initServiceSlider);
 // PERSONAL SLIDER
 const personal = [
   {
-    name: "майстер Юлія",
+    name: "specialist Yulia",
     img: "img/personal/1.svg",
-    days: "пн/ср/пт/нд",
-    time: "з 09:00 до 21:00",
+    days: "Mon/Wed/Fri/Sun",
+    time: "09:00-21:00",
     services: [
-      "Ручний та апаратний масаж",
-      "Обгортання та скрабування"
+      "Manual and Hardware Massage",
+      "Wraps and Scrubs"
     ]
   },
   {
-    name: "майстер Світлана",
+    name: "specialist Svitlana",
     img: "img/personal/2.svg",
-    days: "пн-сб",
-    time: "з 09:00 до 21:00",
+    days: "Mon-Sat",
+    time: "09:00-21:00",
     services: [
-      "Ручний та апаратний масаж",
-      "Обгортання та скрабування",
-      "Тейпування"
+      "Manual and Hardware Massage",
+      "Wraps and Scrubs",
+      "Taping"
     ]
   },
   {
-    name: "майстер Катерина",
+    name: "specialist Kateryna",
     img: "img/personal/3.svg",
-    days: "пн/вт/ср/пт",
-    time: "з 09:00 до 20:00",
+    days: "Mon/Tue/Wed/Fri",
+    time: "09:00-20:00",
     services: [
-      "Воскова депіляція шугаринг",
-      "Електроепіляція"
+      "Waxing and Sugaring",
+      "Electroepilation"
     ]
   },
   {
-    name: "майстер Тетяна",
+    name: "specialist Tetiana",
     img: "img/personal/4.svg",
-    days: "вт/чт/сб/нд",
-    time: "з 09:00 до 21:00",
+    days: "Tue/Thu/Sat/Sun",
+    time: "09:00-21:00",
     services: [
-      "Ручний та апаратний масаж",
-      "Обгортання та скрабування",
-      "Доглядові (косметологічні) процедури"
+      "Manual and hardware massage",
+      "Wraps and scrubs",
+      "Care procedures (cosmetology)"
     ]
   },
   {
-    name: "майстер Олена",
+    name: "specialist Olena",
     img: "img/personal/5.svg",
-    days: "пн-нд",
-    time: "з 09:00 до 20:00",
+    days: "Mon–Sun",
+    time: "09:00-20:00",
     services: [
-      "Лазерна епіляція різних зон",
-      "Лазерна косметологія",
-      "Апаратний масаж",
-      "Обгортання та скрабування, тейпування",
+      "Laser hair removal for different areas",
+      "Laser cosmetology",
+      "Hardware massage",
+      "Wraps, scrubs, and taping",
     ]
   },
   {
-    name: "масажист В’ячеслав",
+    name: "Masseur Vyacheslav",
     img: "img/personal/6.svg",
-    days: "вт/чт/нд",
-    time: "Під запис",
+    days: "Tue/Thu/Sun",
+    time: "By appointment",
     services: [
-      "Ручний та апаратний масаж",
-      "Обгортання та скрабування"
+      "Manual and hardware massage",
+      "Wraps and scrubs"
     ]
   },
   {
-    name: "масажист Костянтин",
+    name: "Masseur Kostiantyn",
     img: "img/personal/7.svg",
-    days: "вт/чт/нд",
-    time: "з 09:00 до 21:00",
+    days: "Tue/Thu",
+    time: "09:00-21:00",
     services: [
-      "Ручний масаж",
-      "Spa-обгортання та скрабування"
+      "Manual massage",
+      "Spa wraps and scrubs"
     ]
   },
   // Додайте інших майстрів аналогічно
@@ -363,11 +364,11 @@ function initPersonalSlider() {
           <div class="personal-block-top-text">
             <h2 class="personal-block-top-text-title">${person.name}</h2>
             <div class="personal-block-top-text-row">
-              <p class="personal-block-top-text-row-title">День</p>
+              <p class="personal-block-top-text-row-title">Days</p>
               <p class="personal-block-top-text-row-decription">${person.days}</p>
             </div>
             <div class="personal-block-top-text-row">
-              <p class="personal-block-top-text-row-title">Час (під запис)</p>
+              <p class="personal-block-top-text-row-title">Time</p>
               <p class="personal-block-top-text-row-decription">${person.time}</p>
             </div>
           </div>
@@ -944,9 +945,9 @@ function init() {
             <p class="testimonial-slide-rating">${"★ ".repeat(review.stars)}${"☆ ".repeat(5 - review.stars)}</p>
             <h2 class="testimonial-slide-title">${review.name}</h2>
             <p class="testimonial-slide-text">${truncatedText}</p>
-            ${isLongText ? `<button class="read-more-btn">Читати більше...</button>` : ""}
+            ${isLongText ? `<button class="read-more-btn">Read more...</button>` : ""}
           </div>
-          <a href="${review.link}" class="testimonial-slide-link">Відгук з Instagram</a>
+          <a href="${review.link}" class="testimonial-slide-link">Instagram Review</a>
         `;
         
         if (isLongText) {
@@ -957,7 +958,7 @@ function init() {
           readMoreBtn.addEventListener("click", () => {
             isExpanded = !isExpanded;
             textElement.textContent = isExpanded ? review.text : truncatedText;
-            readMoreBtn.textContent = isExpanded ? "Згорнути" : "Читати більше...";
+            readMoreBtn.textContent = isExpanded ? "Roll up" : "Read more...";
           });
         }
         

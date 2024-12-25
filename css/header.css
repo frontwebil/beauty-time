@@ -148,6 +148,6 @@
 
 .header-container-mobile-menu.active {
   display: flex;
-  max-height: 478px; /* Устанавливаем максимальную высоту для раскрытого состояния */
+  max-height: 550px; /* Устанавливаем максимальную высоту для раскрытого состояния */
   padding: 20px; /* Возвращаем padding */
 }
