@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" style="display: none;">
     <div class="header-container">
       <nav class="header-nav">
         <a href="#about">Про нас</a>
@@ -50,7 +50,7 @@
       </div>
     </div>
   </header>
-  <section class="hero-section">
+  <section class="hero-section" style="display: none;">
     <div class="hero-section-container">
       <img src="icons/Logo.svg" alt="" class="hero-section-logo" />
       <h1 class="hero-section-title">Beauty Time - час для себе</h1>
@@ -68,7 +68,7 @@
       </div>
     </div>
   </section>
-  <section class="statistics">
+  <section class="statistics" style="display: none;">
     <div class="statistics-container">
       <div class="statistics-block">
         <h2 class="statistics-block-title">4 РОКИ</h2>
@@ -100,7 +100,7 @@
       </div>
     </div>
   </section>
-  <section class="about" id="about">
+  <section class="about" id="about" style="display: none;">
     <div class="about-bg">
       <h2 class="about-title">про beauty time</h2>
       <h2 class="about-subTitle">
@@ -162,7 +162,7 @@
       </div>
     </div>
   </section>
-  <section class="service" id="service">
+  <section class="service" id="service" style="display: none;">
     <div class="container-title">
       <h2 class="title">послуги</h2>
       <p class="subTitle">
@@ -404,45 +404,6 @@
               <img src="icons/chevron-right.svg" alt="">
             </a>
           </div>
-          <div class="service-block media">
-            <div class="">
-              <h2 class="service-block-title">ВОСКОВА ДЕПІЛЯЦІЯ <br> ШУГАРИНГ</h2>
-              <p class="service-block-text">
-                Пропонуємо спектр послуг, спрямованих на покращення
-              </p>
-
-              <div class="service-block-info">
-                <div class="service-block-row">
-                  <div class="service-block-row-img">
-                    <img src="icons/arrow-right.svg" alt="" />
-                  </div>
-
-                  <div class="service-block-row-text">Депіляція різних зон</div>
-                </div>
-                <div class="service-block-row">
-                  <div class="service-block-row-img">
-                    <img src="icons/arrow-right.svg" alt="" />
-                  </div>
-
-                  <div class="service-block-row-text">Комплекси</div>
-                </div>
-                <div class="service-block-row">
-                  <div class="service-block-row-img">
-                    <img src="icons/arrow-right.svg" alt="" />
-                  </div>
-
-                  <div class="service-block-row-text">Електроепіляція</div>
-                </div>
-              </div>
-            </div>
-            <a class="service-block-link"
-              href="https://n799265.alteg.io/company/751395/personal/select-services?fbclid=PAZXh0bgNhZW0CMTEAAabLqiHtKzMhRhWUXYwmBI1UVrGu612jHFCzv3q1JPzuc6nMSlVEcItK5vg_aem_g_cQ2HMUZu5LZUieFuT7xA&o=">
-              <p class="service-block-link-text">
-                Переглянути все та ціни
-              </p>
-              <img src="icons/chevron-right.svg" alt="">
-            </a>
-          </div>
           <div class="service-block">
             <div class="">
               <h2 class="service-block-title">ОФФОРМЛЕННЯ ВІЙ ТА БРІВ</h2>
@@ -501,7 +462,7 @@
       <button class="controls-service-next"><img src="icons/control-right.svg" alt=""></button>
     </div>
   </section>
-  <section class="personal" id="personal">
+  <section class="personal" id="personal" style="display: none;">
     <div class="container-title">
       <h2 class="title">майстри</h2>
       <p class="subTitle">
@@ -791,12 +752,35 @@
           <img src="icons/footer-logo.svg" alt="">
         </div>
         <div class="footer-nav">
-          <a href="#" class="footer-nav-text">Про нас</a>
-          <a href="#" class="footer-nav-text">Послуги</a>
-          <a href="#" class="footer-nav-text">Майстри</a>
-          <a href="#" class="footer-nav-text">Відгуки</a>
-          <a href="#" class="footer-nav-text">Контакти</a>
+          <a href="#about" class="footer-nav-text">Про нас</a>
+          <a href="#service" class="footer-nav-text">Послуги</a>
+          <a href="#personal" class="footer-nav-text">Майстри</a>
+          <a href="#testimonials" class="footer-nav-text">Відгуки</a>
+          <a href="#contacts" class="footer-nav-text">Контакти</a>
         </div>
+      </div>
+      <div class="footer-container-flex">
+        <div class="footer-interactive-mobile">
+          <img src="icons/phone-footer.svg" alt="" style="width: 20px; height: 20px" />
+          <a href="tel:+380963651101">+38 (096) 365 11 01</a>
+        </div>
+        <a href="#" class="footer-container-img-ins">
+          <img src="icons/instagram-white.svg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="footer-container-mobile">
+      <div class="footer-container-mobile-logo">
+        <div class="footer-logo">
+          <img src="icons/footer-logo.svg" alt="">
+        </div>
+      </div>
+      <div class="footer-container-mobile-nav">
+        <a href="#about" class="footer-nav-text">Про нас</a>
+        <a href="#service" class="footer-nav-text">Послуги</a>
+        <a href="#personal" class="footer-nav-text">Майстри</a>
+        <a href="#testimonials" class="footer-nav-text">Відгуки</a>
+        <a href="#contacts" class="footer-nav-text">Контакти</a>
       </div>
       <div class="footer-container-flex">
         <div class="footer-interactive-mobile">

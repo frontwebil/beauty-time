@@ -152,20 +152,49 @@
   margin-top: 10px;
 }
 
-.indicator {
-  width: 10px;
-  height: 10px;
-  background: transparent;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-  border: 2px solid #038650;
+.controls-service-slides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.indicator.active {
+/* Контейнер для індикаторів */
+.indicators-service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Стиль для кожного індикатора */
+.indicator-service {
+  width: 9px;
+  height: 9px;
+  background: transparent;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  border: 2px solid #038650;
+  transition: background-color 0.3s ease;
+}
+
+/* Активний індикатор */
+.indicator-service.active {
   background-color: #038650;
 }
 
-.service-block.media{
-  display: none;
+/* Кнопки prev/next */
+.controls-service-prev,
+.controls-service-next {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+}
+
+/* Прибираємо фокусне підсвічування з кнопок */
+.controls-service-prev:focus,
+.controls-service-next:focus {
+  outline: none;
 }

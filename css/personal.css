@@ -10,10 +10,10 @@
   position: relative;
   overflow: hidden;
   width: 100%;
+  min-height: 331px;
 }
 .personal-slide {
   min-width: 100%;
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   flex-shrink: 0;
   opacity: 0;
   visibility: hidden;
@@ -25,6 +25,7 @@
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 .personal-slide.active {
   visibility: visible;
@@ -109,7 +110,7 @@
 .indicators-personal {
   display: flex;
   gap: 5px;
-
+  align-items: center;
 }
 .indicator-personal {
 font-weight: 500;

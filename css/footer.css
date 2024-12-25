@@ -35,6 +35,9 @@
 .footer-nav-text:hover {
   opacity: 0.8;
 }
+.footer-container-mobile{
+  display: none;
+}
 
 .footer-interactive-mobile {
   display: flex;
@@ -49,5 +52,8 @@
   color: #fafafa;
 }
 
-.footer-container-img-ins {
+.footer-container-mobile {
+  margin: 0 auto;
+  max-width: 440px;
+  padding: 30px 10px;
 }
