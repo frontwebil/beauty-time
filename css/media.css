@@ -49,6 +49,24 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  .hero-section {
+    background-image: url(/img/hero/hero-section-bg-mobile.png);
+  }
+
+  .hero-section-title {
+    font-size: 32px;
+  }
+
+  .hero-section-text {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .statistics-container {
+    justify-content: center;
+    padding: 80px 30px;
+  }
+
   .controls-personal-slides {
     max-width: 400px;
     margin: 0 auto;
@@ -128,6 +146,30 @@
   }
 }
 
+@media only screen and (max-width: 520px) {
+  .hero-section-logo {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 30px;
+  }
+  .hero-section-buttons {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .hero-section-button-regNow {
+    max-width: 100%;
+  }
+  .hero-section-button-more {
+    max-width: 100%;
+  }
+  .hero-section-container {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 150px 15px;
+  }
+}
+
 @media only screen and (max-width: 440px) {
   .personal-block {
     border-radius: 12px;
@@ -164,8 +206,6 @@
     max-width: 295px;
     margin: 20px auto 0;
   }
-
-
 }
 
 @media only screen and (max-width: 350px) {
