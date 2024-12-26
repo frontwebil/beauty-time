@@ -21,6 +21,13 @@
   font-weight: bold;
   color: #fafafa;
   max-width: 750px;
+  text-transform: uppercase;
+}
+.hero-section-subTitle {
+  font-size: 29px;
+  font-weight: bold;
+  color: #fafafa;
+  max-width: 750px;
   padding-bottom: 12px;
   text-transform: uppercase;
 }

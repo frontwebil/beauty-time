@@ -91,7 +91,11 @@
   }
 
   .hero-section-title {
-    font-size: 32px;
+    font-size: 38px;
+  }
+
+  .hero-section-subTitle {
+    font-size: 28px;
   }
 
   .hero-section-text {
