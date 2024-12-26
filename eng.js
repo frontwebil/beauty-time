@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", initServiceSlider);
 const personal = [
   {
     name: "specialist Yulia",
-    img: "img/personal/1.svg",
+    img: "img/personal/1.png",
     days: "Mon/Wed/Fri/Sun",
     time: "09:00-21:00",
     services: [
@@ -274,7 +274,7 @@ const personal = [
   },
   {
     name: "specialist Svitlana",
-    img: "img/personal/2.svg",
+    img: "img/personal/2.png",
     days: "Mon-Fri",
     time: "09:00-21:00",
     services: [
@@ -285,7 +285,7 @@ const personal = [
   },
   {
     name: "specialist Kateryna",
-    img: "img/personal/3.svg",
+    img: "img/personal/3.png",
     days: "Mon/Tue/Wed/Fri",
     time: "09:00-20:00",
     services: [
@@ -295,7 +295,7 @@ const personal = [
   },
   {
     name: "specialist Tetiana",
-    img: "img/personal/4.svg",
+    img: "img/personal/4.png",
     days: "Tue/Thu/Sat/Sun",
     time: "09:00-21:00",
     services: [
@@ -306,7 +306,7 @@ const personal = [
   },
   {
     name: "specialist Olena",
-    img: "img/personal/5.svg",
+    img: "img/personal/5.png",
     days: "Mon–Sun",
     time: "09:00-20:00",
     services: [
@@ -318,7 +318,7 @@ const personal = [
   },
   {
     name: "Masseur Vyacheslav",
-    img: "img/personal/6.svg",
+    img: "img/personal/6.png",
     days: "Tue/Thu/Sat",
     time: "By appointment",
     services: [
@@ -328,7 +328,7 @@ const personal = [
   },
   {
     name: "Masseur Kostiantyn",
-    img: "img/personal/7.svg",
+    img: "img/personal/7.png",
     days: "Tue/Thu",
     time: "09:00-21:00",
     services: [

@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", initServiceSlider);
 const personal = [
   {
     name: "майстер Юлія",
-    img: "img/personal/1.svg",
+    img: "img/personal/1.png",
     days: "пн/ср/пт/нд",
     time: "з 09:00 до 21:00",
     services: [
@@ -273,7 +273,7 @@ const personal = [
   },
   {
     name: "майстер Світлана",
-    img: "img/personal/2.svg",
+    img: "img/personal/2.png",
     days: "пн-пт",
     time: "з 09:00 до 21:00",
     services: [
@@ -284,7 +284,7 @@ const personal = [
   },
   {
     name: "майстер Катерина",
-    img: "img/personal/3.svg",
+    img: "img/personal/3.png",
     days: "пн/вт/ср/пт",
     time: "з 09:00 до 20:00",
     services: [
@@ -294,7 +294,7 @@ const personal = [
   },
   {
     name: "майстер Тетяна",
-    img: "img/personal/4.svg",
+    img: "img/personal/4.png",
     days: "вт/чт/сб/нд",
     time: "з 09:00 до 21:00",
     services: [
@@ -305,7 +305,7 @@ const personal = [
   },
   {
     name: "майстер Олена",
-    img: "img/personal/5.svg",
+    img: "img/personal/5.png",
     days: "пн-нд",
     time: "з 09:00 до 20:00",
     services: [
@@ -317,7 +317,7 @@ const personal = [
   },
   {
     name: "масажист В’ячеслав",
-    img: "img/personal/6.svg",
+    img: "img/personal/6.png",
     days: "вт/чт/сб",
     time: "Під запис",
     services: [
@@ -327,7 +327,7 @@ const personal = [
   },
   {
     name: "масажист Костянтин",
-    img: "img/personal/7.svg",
+    img: "img/personal/7.png",
     days: "вт/чт/нд",
     time: "з 09:00 до 21:00",
     services: [
