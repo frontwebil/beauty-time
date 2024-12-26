@@ -274,7 +274,7 @@ const personal = [
   {
     name: "майстер Світлана",
     img: "img/personal/2.svg",
-    days: "пн-сб",
+    days: "пн-пт",
     time: "з 09:00 до 21:00",
     services: [
       "Ручний та апаратний масаж",
@@ -318,7 +318,7 @@ const personal = [
   {
     name: "масажист В’ячеслав",
     img: "img/personal/6.svg",
-    days: "вт/чт/нд",
+    days: "вт/чт/сб",
     time: "Під запис",
     services: [
       "Ручний та апаратний масаж",

@@ -275,7 +275,7 @@ const personal = [
   {
     name: "specialist Svitlana",
     img: "img/personal/2.svg",
-    days: "Mon-Sat",
+    days: "Mon-Fri",
     time: "09:00-21:00",
     services: [
       "Manual and Hardware Massage",
@@ -319,7 +319,7 @@ const personal = [
   {
     name: "Masseur Vyacheslav",
     img: "img/personal/6.svg",
-    days: "Tue/Thu/Sun",
+    days: "Tue/Thu/Sat",
     time: "By appointment",
     services: [
       "Manual and hardware massage",
