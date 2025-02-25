@@ -264,7 +264,7 @@ const personal = [
   {
     name: "майстер Юлія",
     img: "img/personal/1.png",
-    days: "пн/ср/пт/нд",
+    experience: "понад 7 років",
     time: "з 09:00 до 21:00",
     services: [
       "Ручний та апаратний масаж",
@@ -274,7 +274,7 @@ const personal = [
   {
     name: "майстер Світлана",
     img: "img/personal/2.png",
-    days: "пн-пт",
+    experience: "понад 8 років",
     time: "з 09:00 до 21:00",
     services: [
       "Ручний та апаратний масаж",
@@ -285,7 +285,7 @@ const personal = [
   {
     name: "майстер Катерина",
     img: "img/personal/3.png",
-    days: "пн/вт/ср/пт",
+    experience: "понад 15 років",
     time: "з 09:00 до 20:00",
     services: [
       "Воскова депіляція шугаринг",
@@ -295,7 +295,7 @@ const personal = [
   {
     name: "майстер Тетяна",
     img: "img/personal/4.png",
-    days: "вт/чт/сб/нд",
+    experience: "понад 11 років",
     time: "з 09:00 до 21:00",
     services: [
       "Ручний та апаратний масаж",
@@ -306,7 +306,7 @@ const personal = [
   {
     name: "майстер Олена",
     img: "img/personal/5.png",
-    days: "пн-нд",
+    experience: "понад 8 років",
     time: "з 09:00 до 20:00",
     services: [
       "Лазерна епіляція різних зон",
@@ -318,7 +318,7 @@ const personal = [
   {
     name: "масажист В’ячеслав",
     img: "img/personal/6.png",
-    days: "вт/чт/сб",
+    experience: "понад 8 років",
     time: "Під запис",
     services: [
       "Ручний та апаратний масаж",
@@ -328,7 +328,7 @@ const personal = [
   {
     name: "масажист Костянтин",
     img: "img/personal/7.png",
-    days: "вт/чт/нд",
+    experience: "вт/чт/нд",
     time: "з 09:00 до 21:00",
     services: [
       "Ручний масаж",
@@ -363,12 +363,12 @@ function initPersonalSlider() {
           <div class="personal-block-top-text">
             <h2 class="personal-block-top-text-title">${person.name}</h2>
             <div class="personal-block-top-text-row">
-              <p class="personal-block-top-text-row-title">День</p>
-              <p class="personal-block-top-text-row-decription">${person.days}</p>
+              <p class="personal-block-top-text-row-title">Досвід</p>
+              <p class="personal-block-top-text-row-decription">${person.experience}</p>
             </div>
             <div class="personal-block-top-text-row">
-              <p class="personal-block-top-text-row-title">Час (під запис)</p>
-              <p class="personal-block-top-text-row-decription">${person.time}</p>
+              <p class="personal-block-top-text-row-title">Час</p>
+              <p class="personal-block-top-text-row-decription">(під запис)</p>
             </div>
           </div>
         </div>
